@@ -28,7 +28,7 @@ Este repositorio contiene el desarrollo del Proyecto Final Integrador para el Di
    ```bash
    pip install pandas numpy scikit-learn matplotlib seaborn imbalanced-learn
 
-##### Si utilizas Google Colab, puedes omitir la creación del entorno virtual
+(Si utilizas Google Colab, puedes omitir la creación del entorno virtual)
 
 ## Guía de Ejecución y Configuración del Entorno
 
