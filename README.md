@@ -78,6 +78,7 @@ Tras el proceso de experimentación, se seleccionó el modelo de Regresión Log�
 | Métrica | Baseline (Regresión Logística) | Modelo Final (Random Forest) |
 | :--- | :---: | :---: |
 | Recall | 0.66 | 0.26 |
+| F1-Score | 0.46 | 0.34 |
 | AUC-ROC | 0.72 | 0.81 |
 
 ### Valor Estratégico
