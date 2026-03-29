@@ -84,5 +84,31 @@ Tras el proceso de experimentación, se seleccionó el modelo de Regresión Log�
 ### Valor Estratégico
 La implementación de este modelo permite capturar el 66% de las renuncias potenciales. Considerando un costo de reposición promedio de 6 meses de salario por empleado, se estima un ahorro proyectado de $495,960 USD anuales, bajo un supuesto de efectividad de retención del 50%.
 
+## Glosario de Variables
+
+| Variable Original | Traducción | Descripción y Escala |
+| :--- | :--- | :--- |
+| **Attrition** | Deserción / Atrición | **Variable Objetivo**: Indica si el empleado renunció (Yes/1) o no (No/0). |
+| **Age** | Edad | Edad cronológica del empleado. |
+| **OverTime** | Horas Extras | Indica si el empleado trabaja fuera de su horario habitual (Yes/No). |
+| **StockOptionLevel** | Nivel de Acciones | Nivel de opciones sobre acciones de la empresa otorgadas (Escala 0 a 3). |
+| **MonthlyIncome** | Ingreso Mensual | Salario bruto mensual del empleado en USD. |
+| **JobLevel** | Nivel Jerárquico | Escala de responsabilidad del puesto (1: Junior a 5: Gerencial). |
+| **MaritalStatus** | Estado Civil | Estado civil del empleado (Single, Married, Divorced). |
+| **Gender** | Género | Género con el que se identifica el empleado. |
+| **YearsAtCompany** | Antigüedad | Cantidad de años que el empleado lleva trabajando en la empresa. |
+| **TotalWorkingYears** | Experiencia Total | Años totales de trayectoria laboral del empleado. |
+| **DistanceFromHome** | Distancia al Trabajo | Distancia en kilómetros desde el hogar hasta la oficina. |
+| **EmployeeCount** | Conteo de Empleados | Variable numérica de control unitario (normalmente constante). |
+| **EmployeeNumber** | ID de Empleado | Número identificador único asignado al trabajador. |
+| **Over18** | Mayor de 18 | Indica si el empleado es mayor de edad (Y/N). |
+| **StandardHours** | Horas Estándar | Cantidad de horas laborales estándar establecidas. |
+| **JobSatisfaction** | Satisfacción Laboral | Percepción de agrado con el puesto (1: Bajo a 4: Muy Alto). |
+| **WorkLifeBalance** | Equilibrio Vida-Trabajo | Percepción del balance vida personal/laboral (1: Malo a 4: Excelente). |
+| **JobInvolvement** | Compromiso Laboral | Grado de identificación con las tareas (1: Bajo a 4: Muy Alto). |
+| **RelationshipSatisfaction** | Satisfacción Relacional | Calidad de los vínculos con el entorno (1: Bajo a 4: Muy Alto). |
+
+---
+
 ## Citaciones
 * Datos: **Kaggle – IBM HR Analytics Employee Attrition & Performance**. 
